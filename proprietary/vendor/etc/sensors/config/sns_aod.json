@@ -1,10 +1,10 @@
 {
   "config": {
     "hw_platform": [
-      "MTP", "Dragon", "Surf", "POLARIS", "URSA", "DIPPER", "PERSEUS", "CEPHEUS"
+      "MTP", "DAVINCI", "Surf", "POLARIS", "URSA", "DIPPER", "PERSEUS", "AQUILA"
     ],
     "soc_id": [
-      "291", "246", "305", "321", "339"
+      "365", "246", "305", "321", "339"
     ]
   },
   "sns_aod": {

@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/xiaomi/davinci/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/xiaomi/davinci/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
-    vendor/xiaomi/davinci/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
     vendor/xiaomi/davinci/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/xiaomi/davinci/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/xiaomi/davinci/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
@@ -205,7 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/etc/configstore/vpp.configstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/vpp.configstore.xml \
     vendor/xiaomi/davinci/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/davinci/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/davinci/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/davinci/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/davinci/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -255,20 +253,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/adux1050_0.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/bmp285_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmp285_0.json \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6ds3c_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/shtw2_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_adux1050_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_ak991x_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_bmp285_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_bmp285_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_lsm6ds3c_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_power_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_shtw2_0.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_tcs3701.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm8150_vl53l1_tof_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm8150_vl53l1_tof_0.json \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm6150_adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6150_adux1050_0.json \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm6150_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6150_ak991x_0.json \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm6150_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6150_icm4x6xx_0.json \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm6150_lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6150_lsm6ds3c_0.json \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm6150_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6150_power_0.json \
+    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sm6150_tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sm6150_tcs3701.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_aod.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_aod.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_basic_gestures.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_basic_gestures.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_bring_to_ear.json \
@@ -291,11 +285,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_tilt_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_disabled.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
-    vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/config/vl53l1_tof_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/vl53l1_tof_0.json \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/davinci/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/davinci/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
@@ -842,12 +834,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
+    vendor/xiaomi/davinci/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libskewknob.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskewknob.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
+    vendor/xiaomi/davinci/proprietary/vendor/lib64/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_skel.so \
+    vendor/xiaomi/davinci/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
+    vendor/xiaomi/davinci/proprietary/vendor/lib64/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_skel.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
@@ -883,7 +879,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
-    vendor/xiaomi/davinci/proprietary/vendor/lib64/sensors.elliptic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.elliptic.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.so \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \

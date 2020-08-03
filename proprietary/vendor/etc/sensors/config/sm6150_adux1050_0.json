@@ -1,21 +1,20 @@
 {
-  "config":
-  {
-    "hw_platform": ["MTP", "Surf", "QRD", "HDK", "CEPHEUS"],
-    "soc_id": ["321", "341", "339"]
+  "config":{
+    "hw_platform": ["MTP", "DAVINCI", "Surf", "AQUILA"],
+    "soc_id": ["291", "246", "305", "321", "365"]
   },
-  "ak0991x_0_platform":{
-    "owner": "sns_ak0991x",
+  "adux1050_0_platform":{
+    "owner": "sns_adux1050",
     ".config":{
-      "owner": "sns_ak0991x",
+      "owner": "sns_adux1050",
       "bus_type":{ "type": "int", "ver": "0",
         "data": "0"
       },
-      "bus_instance":{ "type": "int", "ver": "0",
-        "data": "1"
+      "bus_instance":{ "type": "int", "ver": "2",
+        "data": "5"
       },
       "slave_config":{ "type": "int", "ver": "0",
-        "data": "12"
+        "data": "44"
       },
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "400"
@@ -27,10 +26,10 @@
         "data": "0"
       },
       "dri_irq_num":{ "type": "int", "ver": "0",
-        "data": "119"
+        "data": "120"
       },
       "irq_pull_type":{ "type": "int", "ver": "0",
-        "data": "3"
+        "data": "0"
       },
       "irq_is_chip_pin":{ "type": "int", "ver": "0",
         "data": "1"
@@ -42,10 +41,13 @@
         "data": "1"
       },
       "num_rail":{ "type": "int", "ver": "0",
-        "data": "1"
+        "data": "2"
       },
       "rail_on_state":{ "type": "int", "ver": "0",
-        "data": "1"
+        "data": "2"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
       },
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
@@ -54,68 +56,8 @@
       "data": "0"
       }
     },
-    ".orient":{
-      "owner": "sns_ak0991x",
-      "x":{ "type": "str", "ver": "1",
-        "data": "+x"
-      },
-      "y":{ "type": "str", "ver": "1",
-        "data": "+y"
-      },
-      "z":{ "type": "str", "ver": "1",
-        "data": "+z"
-      }
-    },
-    ".mag":{
-      "owner": "sns_ak0991x",
-      ".fac_cal":{
-        "owner": "sns_ak0991x",
-        ".corr_mat":{
-          "owner": "sns_ak0991x",
-          "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.0262"
-          },
-          "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.0451"
-          },
-          "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.0089"
-          },
-          "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.0451"
-          },
-          "1_1":{ "type": "flt", "ver": "0",
-            "data": "1.0414"
-          },
-          "1_2":{ "type": "flt", "ver": "0",
-            "data": " -0.0118"
-          },
-          "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.0089"
-          },
-          "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.0118"
-          },
-          "2_2":{ "type": "flt", "ver": "0",
-            "data": "0.9324"
-          }
-        },
-        ".bias":{
-          "owner": "sns_ak0991x",
-          "x":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "y":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          },
-          "z":{ "type": "flt", "ver": "0",
-            "data": "0.0"
-          }
-        }
-      }
-    },
     ".placement":{
-      "owner": "sns_ak0991x",
+      "owner": "sns_adux1050",
       "0":{ "type": "flt", "ver": "0",
         "data": "0.0"
       },

@@ -1,8 +1,8 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "URSA", "EQUULEUS", "CEPHEUS"],
-    "soc_id": ["291", "246", "305", "321", "339"]
+    "hw_platform": ["MTP", "DAVINCI", "Surf", "POLARIS", "PERSEUS", "AQUILA"],
+    "soc_id": ["291", "246", "305", "321", "365"]
   },
   "tcs3701":{
     "owner": "sns_tcs3701",
@@ -28,7 +28,7 @@
       "owner": "sns_tcs3701",
       ".config":{
         "owner": "sns_tcs3701",
-        "is_dri":{ "type": "int", "ver": "1",
+        "is_dri":{ "type": "int", "ver": "0",
           "data": "1"
         },
         "hw_id":{ "type": "int", "ver": "0",

@@ -1,7 +1,7 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Dragon", "Surf", "POLARIS", "PERSEUS", "CEPHEUS"],
-    "soc_id": ["291", "246", "305", "321", "339"]
+    "hw_platform": ["MTP", "DAVINCI", "Surf", "POLARIS", "PERSEUS", "AQUILA"],
+    "soc_id": ["291", "246", "305", "321", "365", "365"]
   },
   "adux1050_0":{
     "owner": "sns_adux1050",

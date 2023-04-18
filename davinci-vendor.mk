@@ -729,7 +729,6 @@ PRODUCT_PACKAGES += \
     remosaic_daemon \
     rmt_storage \
     sensors.qti \
-    slim_daemon \
     tftp_server \
     thermal-engine \
     time_daemon \

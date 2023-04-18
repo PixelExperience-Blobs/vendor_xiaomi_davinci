@@ -198,6 +198,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
     vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
     vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
+    vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_res_headphone.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_headphone.bin \
+    vendor/xiaomi/davinci/proprietary/vendor/lib/rfsa/adsp/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_spk.bin \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_imx582.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.davinci_luxvisions_imx582.bin \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.davinci_luxvisions_ov8856.bin \
     vendor/xiaomi/davinci/proprietary/vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_s5k3l6.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.davinci_luxvisions_s5k3l6.bin \

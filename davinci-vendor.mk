@@ -277,6 +277,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.3 \
     btaudio_offload_if \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
+    libAlacSwDec \
+    libApeSwDec \
     libMpeg4SwEncoder \
     libOmxAacDec \
     libOmxAlacDec \
@@ -287,6 +289,7 @@ PRODUCT_PACKAGES += \
     libOmxApeDecSw \
     libOmxDsdDec \
     libOmxEvrcDec \
+    libOmxG711Dec \
     libOmxQcelp13Dec \
     libOmxSwVdec \
     libOmxSwVencMpeg4 \
